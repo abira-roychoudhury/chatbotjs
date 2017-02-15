@@ -1,0 +1,57 @@
+.chatdiv{
+	height:450px ;
+	overflow-y: scroll;
+	background: #f1f1f1;
+	padding: 0px;
+}
+
+.sent{
+	padding: 10px;
+	background: #245580;
+	color: white;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+
+.received{
+	padding: 10px;
+	background: #507ea7;
+	color: white;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.chatheader{
+	background: #245580;
+	padding: 10px;
+} 
+
+th,td{
+	padding: 3px;
+    border: 1px solid white;
+    background: #245580;
+}
+
+.micspan {
+	float: right;
+	margin-right: 12px;
+	margin-top: -23px;
+	position: relative;
+	z-index: 2;
+	color: #0057a3;
+	cursor:pointer;
+}
+
+.micspan_on {
+	float: right;
+	margin-right: 12px;
+	margin-top: -23px;
+	position: relative;
+	z-index: 2;
+	color: #fd2a2a;
+	cursor:pointer;
+}
+
+
+
